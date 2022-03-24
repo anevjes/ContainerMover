@@ -42,8 +42,9 @@ function ExtractImageParams {
     }
     return $newImageParams
 }
-#Get-ContainerImage -SourceImageName "mcr.microsoft.com/appsvc/middleware:stage0"
-#Push-ContainerImageToACR -DestinationRegistry "arianacr001.azurecr.io" -SourceImageName "mcr.microsoft.com/appsvc/middleware:stage0" -DestinationImageName "appsvc/middleware" -tag "stage0"
+
+
+
 
 $imageMigration = ConvertFrom-Json -InputObject (Get-Content .\imageMigration.json -Raw)
 
