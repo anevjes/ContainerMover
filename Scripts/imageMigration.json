@@ -1,0 +1,8 @@
+{
+    "sourceImages":[
+        {
+            "sourceImageName":"mcr.microsoft.com/appsvc/middleware:stage0"
+        }
+    ],
+    "destinationRegistry":"arianacr001.azurecr.io"
+}
