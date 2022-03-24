@@ -1,7 +1,8 @@
 # Prepare the migration file
 Update the imageMigration.json file
 
-```json {
+```json 
+{
     "sourceImages":[
         {
             "sourceImageName":"mcr.microsoft.com/appsvc/middleware:stage0"
